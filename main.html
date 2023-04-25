@@ -7,10 +7,34 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form method="post">
+		<label for="name">Name</label>
+		<input id="name" placeholder="Name" type="text">
+		<br>
 
+		<label for="phone">Phone Number</label>
+		<input id="phone" placeholder="Phone Number" type="number">
+		<br>
+
+		<label for="address">Address</label>
+		<input id="address" placeholder="Address" type="text">
+		<br>
+
+		<label for="name">Have you ever lived with a Dog before?</label>
+		<input id="name" value="Have you ever lived with a Dog before?" type="checkbox">
+		<br>
+
+		<label for="breed">Preferred Breeds</label>
+		<select id="multiSelect" multiple>
+			<option>Golden</option>
+			<option>Bulldog</option>
+			<option>Retriver</option>
+			<option>German</option>
+		</select>
+<br>
+		<button type="submit" id="submit" value="Submit">Submit</button>
+		
+	</form>
 </body>
 
 </html>
